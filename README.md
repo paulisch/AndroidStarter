@@ -1,2 +1,2 @@
 # AndroidStarter
-Clean template for a new Android project
+This is a clean template for a new Android project
