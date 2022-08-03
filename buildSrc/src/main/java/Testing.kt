@@ -15,15 +15,15 @@ object Testing {
     const val mockk = "io.mockk:mockk:$mockkVersion"
     const val mockkAndroid = "io.mockk:mockk-android:$mockkVersion"
 
-    private const val turbineVersion = "0.8.0"
+    private const val turbineVersion = "0.9.0"
     const val turbine = "app.cash.turbine:turbine:$turbineVersion"
 
-    private const val mockWebServerVersion = "4.10.0"
+    private const val mockWebServerVersion = "5.0.0-alpha.10"
     const val mockWebServer = "com.squareup.okhttp3:mockwebserver:$mockWebServerVersion"
 
     const val composeUiTest = "androidx.compose.ui:ui-test-junit4:${Compose.composeVersion}"
 
-    const val hiltTesting = "com.google.dagger:hilt-android-testing:${DaggerHilt.version}"
+    const val hiltTesting = "com.google.dagger:hilt-android-testing:${DaggerHilt.hiltVersion}"
 
     private const val testRunnerVersion = "1.4.0"
     const val testRunner = "androidx.test:runner:$testRunnerVersion"
